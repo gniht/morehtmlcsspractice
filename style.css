@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  width: 100vw;  
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+  
+
+.login {
+  display: flex;  
+  float: right;
+  margin: 0px 5px;  
+}
+
+button {    
+  font-size: .8em;
+  color: white;
+  padding: 7px;
+  background-color:#567b95;
+  border: none;
+  border-radius: 2px;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: rgb(72, 82, 88);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+  grid-column: 3/6; 
+}
+
+.main-image {  
+  margin: 20px;
+  grid-column: 2/9;  
+}
+
+.main-article {
+  grid-column: 3/8;
+}
